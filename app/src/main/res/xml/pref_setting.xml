@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="系统设置">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="open"
+            android:title="语音播放"/>
+
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="open"
+            android:title="开启打印机"/>
+
+
+        <Preference
+            android:key="version"
+            android:summary="版本号"
+            android:title="检查更新"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

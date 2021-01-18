@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="title_item_height">90dp</dimen>
+
+    <dimen name="list_item_margin_right">5dp</dimen>
+    <dimen name="list_layout_margin_right">5dp</dimen>
+
+    <dimen name="chat_item_title_size">40sp</dimen>
+    <dimen name="chat_item_tv_size">35sp</dimen>
+
+    <integer name="video_item_weight">1</integer>
+    <integer name="fun_item_weight">3</integer>
+
+</resources>

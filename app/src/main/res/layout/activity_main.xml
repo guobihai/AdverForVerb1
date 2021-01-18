@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    tools:context="vb.queue.com.adverforverb.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tvNoticeLayout"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/tvTitleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_dark"
+                android:visibility="gone"
+                android:padding="3dp">
+                <!--FFE66F-->
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/title"
+                    android:textColor="@android:color/white"
+                    android:textSize="38sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:text="2018-09-04"
+                            android:textColor="@android:color/white"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tvTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="10dp"
+                            android:text="10:13 上午"
+                            android:textColor="@android:color/white"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvIPAddr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="192.168.5.200"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.youth.banner.Banner
+                android:id="@+id/leftSliderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+          />
+
+
+            <com.smart.library.widget.SmartVideoPlayer
+                android:id="@+id/videoplayer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/showMenuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/list_layout_margin_right"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1.5"
+            android:background="#FFF8D7"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <com.youth.banner.Banner
+                android:id="@+id/rightSliderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+          />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvNotice"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginTop="2dp"-->
+    <!--android:background="@android:color/holo_orange_light"-->
+    <!--android:ellipsize="marquee"-->
+    <!--android:marqueeRepeatLimit="marquee_forever"-->
+    <!--android:padding="5dp"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="@string/tv_notice_text"-->
+    <!--android:textColor="@android:color/black"-->
+    <!--android:textSize="32sp" />-->
+    <!---->
+
+    <LinearLayout
+        android:id="@+id/tvNoticeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tv_notice_layout_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNoticeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/tv_notice_title_bg1"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text="最新更新"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNotice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text="@string/tv_notice_text"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!--<com.marquee.dingrui.marqueeviewlib.MarqueeView-->
+    <!--android:id="@+id/tvNotice"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:background="@android:color/holo_orange_light"-->
+    <!--android:padding="5dp"-->
+    <!--app:marqueeview_repet_type="repet_continuous"-->
+    <!--app:marqueeview_text_color="@android:color/black"-->
+    <!--app:marqueeview_text_size="32"-->
+    <!--app:marqueeview_text_speed="1" />-->
+
+</RelativeLayout>

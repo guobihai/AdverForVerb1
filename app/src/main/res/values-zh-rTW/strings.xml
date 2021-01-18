@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">主機系統</string>
+
+    <string name="title">林信昌中醫診所</string>
+
+    <string name="tv_notice_text">國民健康署針對40~64歲的民眾，提供每3年1次的免費健檢。符合資格者，只要拿健保卡到特約醫療院所，就可以接受檢查，而且不只大醫院，也可以到社區附近的診所找家庭醫師，幫你省下等候或通車的時間，是不是很方便呢！ 適用對象： 1. 40~64歲，每三年一次。 2. 65歲以上，每年一次。 3. 35歲以上小兒麻痺患者，每年一次。 4. 55歲以上原住民身分者，每年一次。</string>
+
+    <string name="tv_order_name">包廂使用情況</string>
+
+    <string name="tv_state_kan">看診</string>
+    <string name="tv_state_qucan">取餐</string>
+    <string name="tv_state_deng">等候</string>
+    <string name="tv_state_guo">過號</string>
+    <string name="no_data">暫無包厢信息</string>
+
+    <string name="ipaddr">本機IP:</string>
+    <string name="machine_no">機器碼:</string>
+
+    <string name="des_title">信昌海鮮酒家迎賓樓</string>
+
+    <string name="rm_user_waring">警告</string>
+    <string name="opne_ly">請打開藍牙並連接藍牙打印機</string>
+
+    <string name="main_switch_print">顯示右邊圖片</string>
+    <string name="main_switch_full_scrren">顯示標題抬頭</string>
+    <string name="main_switch_full_notice">顯示即時資訊</string>
+    <string name="main_switch_clear_data">包廂使用資料</string>
+
+    <string name="comfirm">確認</string>
+
+
+    <string name="main_zj_sdcard">主機檔案目錄地址</string>
+    <string name="main_switch_voice">叫號語音設定</string>
+    <string name="main_video_settting">媒體播放設定</string>
+    <string name="video_settting">視頻</string>
+    <string name="img_settting">圖片</string>
+
+
+    <string-array name="notice_items">
+        <item>社區公告</item>
+        <item>最近更新</item>
+        <item>店長推薦</item>
+        <item>本周優惠</item>
+        <item>熱銷商品</item>
+        <item>雙重好禮</item>
+        <item>會員召集</item>
+        <item>訪客通知</item>
+        <item>移車通知</item>
+    </string-array>
+
+    <string-array name="setting_arrays">
+        <item>開關設置</item>
+        <item>展示設置</item>
+    </string-array>
+    <string name="main_right_setting_delay">設置右邊廣告時間</string>
+    <string name="main_setting_delay">設置左邊廣告時間</string>
+
+    <string name="second_time">圖片播放間隔時間不少於2秒</string>
+    <string name="second_err_time">輸入的數值不可以超過99秒。</string>
+
+    <string name="mp_confirm">確認</string>
+
+    <string name="mp_image">圖片</string>
+    <string name="mp_audio">音频</string>
+    <string name="mp_video">視頻</string>
+    <string name="mp_select_image">選擇圖片</string>
+    <string name="mp_select_audio">選擇音频</string>
+    <string name="mp_select_video">選擇視頻</string>
+    <string name="mp_formatted_zero_time">00:00</string>
+
+    <string name="mp_all_images">所有圖片</string>
+    <string name="mp_all_audios">所有音頻</string>
+    <string name="mp_all_videos">所有視頻</string>
+    <string name="mp_warn_get_permissions_rationale">請允許權限以便展示多媒體資源</string>
+</resources>

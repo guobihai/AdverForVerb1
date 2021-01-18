@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">主机系统</string>
+
+
+    <string name="title">林信昌中醫診所</string>
+
+    <string name="tv_notice_text">國民健康署針對40~64歲的民眾，提供每3年1次的免費健檢。符合資格者，只要拿健保卡到特約醫療院所，就可以接受檢查，而且不只大醫院，也可以到社區附近的診所找家庭醫師，幫你省下等候或通車的時間，是不是很方便呢！ 適用對象： 1. 40~64歲，每三年一次。 2. 65歲以上，每年一次。 3. 35歲以上小兒麻痺患者，每年一次。 4. 55歲以上原住民身分者，每年一次。</string>
+
+    <string name="tv_order_name">包厢使用情况</string>
+
+    <string name="tv_state_kan">看诊</string>
+    <string name="tv_state_qucan">取餐</string>
+    <string name="tv_state_deng">等候</string>
+    <string name="tv_state_guo">过号</string>
+    <string name="no_data">暂无包厢信息</string>
+    <string name="ipaddr">本机IP:</string>
+    <string name="machine_no">机器码:</string>
+    <string name="des_title">信昌海鲜酒家迎宾楼</string>
+
+    <string name="rm_user_waring">警告</string>
+    <string name="opne_ly">请打开蓝牙并连接蓝牙打印机</string>
+
+    <string name="main_switch_print">展示右边图片</string>
+    <string name="main_setting_delay">设置左边广告时间</string>
+    <string name="comfirm">确认</string>
+    <string name="main_zj_sdcard">主机图片存放目录</string>
+    <string name="main_switch_voice">叫号语音设置</string>
+    <string name="main_switch_full_scrren">展示标题抬头</string>
+    <string name="main_switch_full_notice">显示即时資訊</string>
+    <string name="main_switch_clear_data">包廂使用資料</string>
+
+    <string name="main_right_setting_delay">设置右边广告时间</string>
+
+    <string name="main_video_settting">媒體播放設定</string>
+    <string name="video_settting">視頻</string>
+    <string name="img_settting">圖片</string>
+
+    <string name="second_time">图片播放间隔时间不少于2秒</string>
+    <string name="second_err_time">输入的数值不可以超过99秒</string>
+
+    <string name="mp_confirm">确认</string>
+
+    <string name="mp_image">图片</string>
+    <string name="mp_audio">音频</string>
+    <string name="mp_video">视频</string>
+    <string name="mp_select_image">选择图片</string>
+    <string name="mp_select_audio">选择音频</string>
+    <string name="mp_select_video">选择视频</string>
+    <string name="mp_formatted_zero_time">00:00</string>
+
+    <string name="mp_all_images">所有图片</string>
+    <string name="mp_all_audios">所有音频</string>
+    <string name="mp_all_videos">所有视频</string>
+    <string name="mp_warn_get_permissions_rationale">请允许权限以便展示多媒体资源</string>
+    <string-array name="notice_items">
+        <item>社区公告</item>
+        <item>最近更新</item>
+        <item>店长推荐</item>
+        <item>本周优惠</item>
+        <item>热销商品</item>
+        <item>双重好礼</item>
+        <item>会员召集</item>
+        <item>访客通知</item>
+        <item>移车通知</item>
+    </string-array>
+
+    <string-array name="setting_arrays">
+        <item>开关设置</item>
+        <item>展示设置</item>
+    </string-array>
+
+
+</resources>

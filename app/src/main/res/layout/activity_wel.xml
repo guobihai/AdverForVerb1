@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".WelActivity">
+
+
+    <ImageView
+        android:id="@+id/wel_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30s"
+        android:textSize="40sp"
+        android:background="@drawable/wel_textview_bg"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_machine_No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/machine_no"
+        android:textSize="40sp"
+        android:background="@color/item_title_color1"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/tv_nativeIpAddr"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_toLeftOf="@+id/tv_machine_value"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_machine_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xxxx"
+        android:textSize="40sp"
+        android:background="@color/item_title_color1"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/tv_nativeIpAddr"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_nativeIpAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ipaddr"
+        android:textSize="40sp"
+        android:background="@color/item_title_color1"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+
+</RelativeLayout>

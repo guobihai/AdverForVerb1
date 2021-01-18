@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider_line"
+    android:orientation="vertical"
+    android:showDividers="middle|end|beginning"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:textColor="@android:color/black"
+            android:text="@string/main_switch_print"
+            android:textSize="@dimen/chat_item_testsize" />
+
+        <Switch
+            android:id="@+id/switchPrint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:text="@string/main_switch_print"
+            android:textSize="@dimen/chat_item_testsize"
+            android:background="@drawable/radio_select_bg"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:checked="false"
+            android:gravity="center|left" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:text="@string/main_switch_full_scrren"
+            android:textSize="@dimen/chat_item_testsize" />
+
+        <Switch
+            android:id="@+id/switchFullScreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight= "15dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:background="@drawable/radio_select_bg"
+            android:text="@string/main_switch_full_scrren"
+            android:paddingLeft="15dp"
+            android:textSize="@dimen/chat_item_testsize"
+            android:checked="true"
+            android:gravity="center|left" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:visibility="gone"
+            android:text="@string/main_switch_full_notice"
+            android:textSize="@dimen/chat_item_testsize" />
+
+        <Switch
+            android:id="@+id/switchNotice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="15dp"
+            android:checked="true"
+            android:paddingLeft="15dp"
+            android:background="@drawable/radio_select_bg"
+            android:textColor="@android:color/black"
+            android:text="@string/main_switch_full_notice"
+            android:textSize="@dimen/chat_item_testsize"
+            android:gravity="center|left" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/main_switch_clear_data"
+            android:textSize="@dimen/chat_item_testsize" />
+
+        <TextView
+            android:id="@+id/clearData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="@dimen/chat_item_testsize"
+            android:background="@drawable/btn_clear_bg"
+            android:gravity="center"
+            android:text="清除" />
+    </RelativeLayout>
+
+</LinearLayout>
